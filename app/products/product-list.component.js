@@ -13,6 +13,7 @@ var ProductListComponent = (function () {
         this.imageWidth = 25;
         this.imageMargin = 2;
         this.showImage = false;
+        this.listFilter = 'cart';
         this.products = [
             {
                 "productId": 2,
