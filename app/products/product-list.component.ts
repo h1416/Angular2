@@ -33,8 +33,7 @@ export class ProductListComponent {
         },
     ];
 
-    toggleImage() : void
-    {
+    toggleImage(): void {
         this.showImage = !this.showImage;
     }
 }
