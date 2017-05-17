@@ -7,10 +7,10 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 var core_1 = require("@angular/core");
-var ProductSerice = (function () {
-    function ProductSerice() {
+var ProductService = (function () {
+    function ProductService() {
     }
-    ProductSerice.prototype.getProducts = function () {
+    ProductService.prototype.getProducts = function () {
         return [
             {
                 "productId": 1,
@@ -64,10 +64,10 @@ var ProductSerice = (function () {
             }
         ];
     };
-    return ProductSerice;
+    return ProductService;
 }());
-ProductSerice = __decorate([
+ProductService = __decorate([
     core_1.Injectable()
-], ProductSerice);
-exports.ProductSerice = ProductSerice;
+], ProductService);
+exports.ProductService = ProductService;
 //# sourceMappingURL=product.service.js.map
