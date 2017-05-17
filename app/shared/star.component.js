@@ -18,7 +18,7 @@ var StarComponent = (function () {
 }());
 StarComponent = __decorate([
     core_1.Component({
-        selector: 'ai-star',
+        selector: 'ah-star',
         moduleId: module.id,
         templateUrl: 'star.component.html',
         styleUrls: ['star.component.css']

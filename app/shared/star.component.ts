@@ -1,7 +1,7 @@
 import { Component, OnChanges } from "@angular/core";
 
 @Component({
-    selector: 'ai-star',
+    selector: 'ah-star',
     moduleId: module.id,
     templateUrl: 'star.component.html',
     styleUrls: ['star.component.css']
