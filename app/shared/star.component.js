@@ -9,11 +9,17 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var core_1 = require("@angular/core");
 var StarComponent = (function () {
     function StarComponent() {
+        this.rating = 4;
     }
     return StarComponent;
 }());
 StarComponent = __decorate([
-    core_1.Component({})
+    core_1.Component({
+        selector: 'ai-star',
+        moduleId: module.id,
+        templateUrl: 'star.component.html',
+        styleUrls: ['star.component.css']
+    })
 ], StarComponent);
 exports.StarComponent = StarComponent;
 //# sourceMappingURL=star.component.js.map
