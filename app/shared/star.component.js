@@ -11,6 +11,9 @@ var StarComponent = (function () {
     function StarComponent() {
         this.rating = 4;
     }
+    StarComponent.prototype.ngOnChanges = function () {
+        this.starWidth = this.rating * 86 / 5;
+    };
     return StarComponent;
 }());
 StarComponent = __decorate([

@@ -1,4 +1,4 @@
-import { Component } from "@angular/core";
+import { Component, OnChanges } from "@angular/core";
 
 @Component({
     selector: 'ai-star',
@@ -7,7 +7,11 @@ import { Component } from "@angular/core";
     styleUrls: ['star.component.css']
 })
 
-export class StarComponent {
+export class StarComponent implements OnChanges {
     starWidth: number;
     rating: number = 4;
+
+    ngOnChanges(): void {
+        this.starWidth = this.rating * 86/5;
+    }
 }
